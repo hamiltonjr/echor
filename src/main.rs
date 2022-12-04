@@ -1,5 +1,14 @@
 use clap::{App, Arg};
 
+/*
+ * This is a naive version of echo, a command of Unix and Unix-like operating
+ * systems like BSD, Mac OS and Linux. It's an exercise based in explanations
+ * at the book Command-line Rust: a project-based primer for writing Rusu CLIs,
+ * O'Reilly, Ken Youens-Clark, 2022.
+ * 
+ * This code will be posted in GitHub and enhanced in the future. The intention 
+ * is this code to be a clone of original echo, coded in C at Linux by GNU.
+ */
 fn main() {
     // flags handling using clap
     let matches = App::new("echor")
